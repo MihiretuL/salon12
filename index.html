@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Beauty Salon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+    
+    <body>
+        <header>
+            <div class="logo">
+                <h1> Beauty Salon</h1>
+            </div>
+            <nav>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <div class="container"> 
+            <main>
+                <section id="home">
+                    <div class="overlay">
+                        <h2>Welcome to Your Beauty Salon</h2>
+                        <p>Your beauty, our passion. Book an appointment or explore our services!</p>
+                        <a href="#booking" class="cta-button">Book an Appointment</a>
+                    </div>
+                </section>
+                <section id="services">
+                    <h2>Our Services</h2>
+                    <div class="services-grid">
+                        <div class="service">
+                            <h3>Luxury Facial</h3>
+                            <p>Experience a rejuvenating facial with organic products.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Hair Styling</h3>
+                            <p>Get the latest styles from our expert stylists.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Manicure & Pedicure</h3>
+                            <p>Relax and pamper yourself with our premium nail care.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Massage Therapy</h3>
+                            <p>Relieve stress with our professional massage treatments.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Bridal Makeup</h3>
+                            <p>Look stunning on your special day with our expert makeup services.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Waxing</h3>
+                            <p>Get smooth, hair-free skin with our gentle waxing services.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="about">
+                    <h2>About Us</h2>
+                    <p>At <strong>Your Beauty Salon</strong>, we provide top-notch beauty services tailored to your needs. Our expert team is committed to giving you the ultimate salon experience.</p>
+                </section>
+                
+                <section id="booking">
+                    <h2>Book an Appointment</h2>
+                    <p>Schedule your appointment online in seconds!</p>
+                    <form id="booking-form">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                
+                        <label for="date">Select Date:</label>
+                        <input type="date" id="date" name="date" required>
+                
+                        <label for="time">Select Time:</label>
+                        <input type="time" id="time" name="time" required>
+                
+                        <button type="submit">Confirm Booking</button>
+                    </form>
+                    <p id="booking-status"></p>
+                </section>
+                
+                
+                <section id="testimonials">
+                    <h2>What Our Clients Say</h2>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <p>“Fantastic service! Highly recommend.”</p>
+                            <cite>– Happy Customer</cite>
+                        </div>
+                        <div class="testimonial">
+                            <p>“The best salon experience I’ve ever had. My hair has never looked better!”</p>
+                            <cite>– Sarah J.</cite>
+                        </div>
+                        <div class="testimonial">
+                            <p>“Exceptional service and a great atmosphere. I’ll be back!”</p>
+                            <cite>– Michael R.</cite>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="gallery">
+                    <h2>Our Work</h2>
+                    <div class="gallery-grid">
+                        <img src="images/img7.jpg" alt="Salon Work 1">
+                        <img src="images/img6.jpg" alt="Salon Work 2">
+                        <img src="images/img3.jpg" alt="Salon Work 3">
+                        <img src="images/img4.jpg" alt="Salon Work 4">
+                        <img src="images/img5.jpg" alt="Salon Work 5">
+
+                    </div>
+                </section>
+                
+                <section id="contact">
+                    <h2>Contact Us</h2>
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+            </main>
+        </div> 
+       
+    <footer>
+        <div class="footer-container">
+            <!-- Social Media Section -->
+             
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+    
+                <!-- Payment Methods -->
+                <h3>We Accept</h3>
+                <div class="payment-icons">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-brands fa-cc-amex"></i>
+                </div>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@yourbeautysalon.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Location: 123 Main Street, Silicon Valley, CA</p>
+            </div>
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2025  Beauty Salon. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+    <script src="scripts.js"></script>
+</body>
+
+</html>
